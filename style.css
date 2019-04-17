@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+  font-family: Helvetica;
+  line-height: 1.5;
+}
+
+header {
+    background:#4EAAA4;
+    padding: 40px;
+    width: 250px;
+    color: #ffffff;
+    float:left;
+    margin-left:300px;
+    text-align: center;
+}
+
+nav {
+    background:white;
+    position: absolute;
+    left: 550px;
+    width: 740px;
+    padding:40px;
+    color: #9F9F9F;
+    text-align: right;
+    float: left;
+}
+
+a {
+    color:#9F9F9F;
+    text-decoration: none;
+
+}
+
+.underline {
+    border-bottom-style: solid;
+    border-color: #9F9F9F;
+    border-width: 2px;
+}
+
+h2 {
+    color: #52AAA4;
+}
+
+img {
+    float:left;
+    position: relative;
+    z-index: 1;
+}
+
+p {
+    position: relative;
+    z-index: 0;
+    left: 5px;
+    bottom: 16px;
+}
+
+.window {
+    width: 100%;
+    height: 1000px;
+    background-image: url("gravel.png");
+    float:left;
+}
+.main {
+    width: 960px;
+    height: 500px;
+    background: white;
+    float:left;
+    margin-left: 300px;
+    margin-top: 20px;
+    text-align: left;
+    padding: 20px;
+}
+
+footer {
+    background: #666666;
+    padding: 25px;
+    color: #9F9F9F;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    border-top-style: solid;
+    border-top-width: 8px;
+    border-top-color: #4EAAA4;
+    left: 0;
+    bottom: 0;
+}
+
+input {
+    position: relative;
+    float:left;
+    bottom:25px;
+    left:3px;
+    width:100%;
+}
+
+.message-input {
+    position: relative;
+    float:left;
+    bottom:25px;
+    left:3px;
+    width:100%;
+    height: 100px;
+}
+
+textarea {
+    position:relative;
+    float:left;
+    bottom:25px;
+    left: 3px;
+    width: 100%;
+    height: 160px;
+    border-color: #DFDFDF;
+}
+
+button {
+    position: relative;
+    float:left;
+    bottom:21px;
+    left: 3px;
+    padding:10px;
+    width: 120px;
+    color: white;
+    font-size: 14pt;
+    border-radius: 4px;
+    background: #4EAAA4;
+}
+
+.main-portfolio {
+    width: 960px;
+    height: 800px;
+    background: white;
+    float:left;
+    margin-left: 300px;
+    margin-top: 20px;
+    text-align: left;
+    padding: 20px;
+}
+
+#confused {
+    margin-top: 30px;
+    margin-right: 30px;
+    
+}
+
+#dragonball {
+    margin-top: 30px;
+    margin-right:200px;
+}
+
+#bleach {
+    float: left;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+#naruto {
+    margin-top:30px;
+    margin-right:200px;
+}
+
+#pikachu {
+    margin-top: 30px;
+    position: relative;
+    z-index: 0;
+}
